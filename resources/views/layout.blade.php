@@ -162,7 +162,7 @@
                 <a href="#" class="col" id="link">
                     <span>Guide</span>
                 </a>
-                <a href="#" class="col" id="link">
+                <a href="/contact" class="col" id="link">
                     <span>Contact Us</span>
                 </a>
                 <a href="#" class="col" id="link">

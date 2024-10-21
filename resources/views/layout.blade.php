@@ -13,7 +13,7 @@
     <style>
         html,
         body {
-            height: 110%;
+            height: 105%;
             margin: 0;
         }
 

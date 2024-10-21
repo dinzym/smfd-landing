@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col-md-6 d-flex flex-column justify-content-center">
                 <div class="d-flex mb-3">
-                    <img src="{{ asset('img/bullet.png') }}" alt="bullet" class="img-fluid">
+                    <img src="{{ asset('img/bullet.png') }}" alt="bullet" class="img-fluid"  width="85%">
                     <!-- <p class="ms-3">Browse wide product selection.</p> -->
                 </div>
                 <!-- <div class="d-flex mb-3">

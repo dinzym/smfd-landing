@@ -54,8 +54,10 @@
         }
 
         .nav-link {
-            padding-top: 5px; /* Adjust as necessary */
-            padding-bottom: 5px; /* Adjust as necessary */
+            padding-top: 5px;
+            /* Adjust as necessary */
+            padding-bottom: 5px;
+            /* Adjust as necessary */
         }
 
         .nav-item {
@@ -90,6 +92,36 @@
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
+        }
+
+        .address-container {
+            min-height: 550px;
+            height: 700px;
+            width: 445px;
+            padding: 40px;
+            background-color: #eaeaea;
+            align-items: end;
+            border-radius: 20px;
+        }
+
+        .details-header {
+            font-size: 18px;
+            color: #247878;
+            font-weight: 600;
+            word-wrap: break-word;
+        }
+
+        .details-text {
+            font-size: calc(100% + .23vw + .23vh);
+            font-weight: 600;
+            word-wrap: break-word;
+        }
+
+        .divider {
+            border-top: 1px solid #ffffff;
+            /* Adjust color and thickness as needed */
+            margin: 20px 0;
+            /* Adjust spacing as needed */
         }
 
         @media (max-width: 768px) {
@@ -132,13 +164,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item px-1">
-                @if (request()->is('home'))
-                <a class="nav-link text-white">
-                    <button type="button" class="btn text-white">Homepage</button>
-                 </a>
-                 @else
-                 <a class="nav-link text-white" href="/home">Homepage</a>
-                 @endif
+                    @if (request()->is('home'))
+                    <a class="nav-link text-white">
+                        <button type="button" class="btn text-white">Homepage</button>
+                    </a>
+                    @else
+                    <a class="nav-link text-white" href="/home">Homepage</a>
+                    @endif
                 </li>
 
                 <li class="nav-item px-1">
@@ -183,7 +215,7 @@
             </div>
         </section>
         <section class="p-4" style="background-color: #004545; height: auto">
-            <div class="footer-container ms-4">
+            <div class="footer-container mx-5">
                 <span>B-3A-4, North Point, Mid Valley City, No 1, Medan Syed Putra Utama, 59200 Kuala Lumpur, Malaysia.</span>
                 <div class="social-icons">
                     <span>Follow us on:</span>

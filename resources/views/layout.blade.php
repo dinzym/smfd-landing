@@ -13,7 +13,7 @@
     <style>
         html,
         body {
-            height: 105%;
+            height: 110%;
             margin: 0;
         }
 
@@ -181,6 +181,13 @@
                     </a>
                     @else
                     <a class="nav-link text-white" href="/download">Download</a>
+                    @endif
+                </li>
+
+                <li class="nav-item px-1">
+                    @if (request()->is('terminate'))
+                    <a class="nav-link text-white" href="/terminate">Reset Password</a>
+                    </a>
                     @endif
                 </li>
             </ul>

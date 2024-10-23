@@ -8,16 +8,27 @@
             <!-- Contact Details container -->
             <div class="container main-container">
                 <div class="pt-3 fs-2 text-dark text-start fw-bold">
-                    Get in Touch with Us.
+                    We’re sorry to see you go.
                 </div>
-                <div class="pt-2 fs-5 text-dark text-start w-75">
-                    Got questions or feedback? Drop us a message below or use the contact details provided. We’ll get back to you soon!
+                <div class="pt-2 pb-4 fs-5 text-dark text-start w-75" style="font-weight: 500;">
+                    Deleting your account will:
+                </div>
+                <div class="p-3 fs-6 text-dark w-100 rounded d-flex flex-column lh-lg" style="background-color: #eaeaea;">
+                    <text> - Delete all your <b>information</b> and <b>remove your access on all devices.</b></text> 
+                    <text> - Delete all your <b>transaction history</b> and your <b>orders information.</b></text>
+                    <text class="lh-base"> - This action cannot be undone!</text>
                 </div>
                 <div class="pt-5 pb-3 fs-4 text-dark text-start fw-bold">
                     Your details
                 </div>
                 <div>
                     <form action="#">
+                            <!-- <div class="row">
+                                <div class="col-5 border">Full Name</div>
+                                <div class="col-1"></div>
+                                <div class="col-1 border">a</div>
+                                <div class="col-5 border">Phone Number</div>
+                            </div> -->
                         <div class="d-flex justify-content-start align-items-center">
                             <div class="d-flex my-2 fs-5 w-50 flex-column" style="border-radius: 15px; box-sizing: border-box;">
                                 <label for="full-name" class="fw-bold fs-6 px-4 pb-2">Full Name<sup class="text-danger">*</sup class="text-danger"></label>
@@ -40,7 +51,7 @@
                     </form>
                 </div>
                 <div class="py-3 px-4 fs-6 text-dark text-start fw-bold">
-                    Your Message<sup class="text-danger">*</sup class="text-danger">
+                    Reason<sup class="text-danger">*</sup class="text-danger">
                 </div>
                 <div class="form-group px-3">
                     <textarea class="form-control" rows="5" placeholder="Write your message here..." style="font-size: 18px; padding-top: 10px;"></textarea>
@@ -50,7 +61,7 @@
                     <div class="row" style="display:flex;">
                         <div class="offset-lg-9 col-lg-3 pb-md-4">
                             <div class="d-flex align-items-center justify-content-end pt-4 mt-3">
-                                <button type="submit" class="btn btn-rounded text-white fs-5 px-5 py-2" style="background-color: #004d40;">Send</button>
+                                <button type="submit" class="btn btn-rounded text-white fs-5 px-3 py-2" style="background-color: #004d40;">Request Deletion</button>
                             </div>
                         </div>
                     </div>

@@ -28,3 +28,7 @@ Route::get('/download', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/terminate', function () {
+    return view('terminate');
+});

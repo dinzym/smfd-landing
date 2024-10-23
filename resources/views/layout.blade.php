@@ -112,7 +112,8 @@
         }
 
         .details-text {
-            font-size: calc(100% + .23vw + .23vh);
+            font-size: 16px;
+            /* font-size: calc(100% + .23vw + .23vh); */
             font-weight: 600;
             word-wrap: break-word;
         }
@@ -120,7 +121,7 @@
         .divider {
             border-top: 1px solid #ffffff;
             /* Adjust color and thickness as needed */
-            margin: 20px 0;
+            /* margin: 0px; */
             /* Adjust spacing as needed */
         }
 

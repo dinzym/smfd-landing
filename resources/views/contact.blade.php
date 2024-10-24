@@ -40,7 +40,7 @@
                     </form>
                 </div>
 
-                <div class="py-3 pb-2 fs-6 text-dark text-start fw-bold" style="padding-left: 35px;" >
+                <div class="py-3 pb-2 fs-6 text-dark text-start fw-bold" style="padding-left: 35px;">
                     Your Message<sup class="text-danger">*</sup>
                 </div>
                 <div class="form-group px-3">
@@ -58,83 +58,48 @@
             </div>
         </div>
 
-        <div class="col-lg-4 order-lg-2">
-            <!-- Address Container -->
-            <div class="container address-container mt-3">
-                <div class="row" style="height: 100%;">
-                    <div class="col-sm-12 d-flex flex-column justify-content-center">
-                        <div class="details-header">
-                            Business Enquiries
-                        </div>
-                    </div>
-                    <div class="col-sm-12 d-flex flex-column justify-content-center">
-                        <div class="details-text">
-                            <a href="mailto:enquiry@smartmfdealers.com" target="_blank" class=" link-dark link-offset-2 link-offset-3-hover link-underline-dark link-underline-opacity-0 link-underline-opacity-100-hover">
-                                enquiry@smartmfdealers.com
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="divider my-2"></div> <!-- Add margin -->
-                    </div>
-                    <div class="col-sm-12 d-flex flex-column justify-content-center">
-                        <div class="details-header">
-                            Support Enquiries
-                        </div>
-                    </div>
-                    <div class="col-sm-12 d-flex flex-column justify-content-center">
-                        <div class="details-text">
-                            <a href="mailto:support@smartmfdealers.com" target="_blank" class=" link-dark link-offset-2 link-offset-3-hover link-underline-dark link-underline-opacity-0 link-underline-opacity-100-hover">
-                                support@smartmfdealers.com
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="divider my-2"></div> <!-- Add margin -->
-                    </div>
-                    <div class="col-sm-12 d-flex flex-column justify-content-center">
-                        <div class="details-header">
-                            Address
-                        </div>
-                    </div>
-                    <div class="col-sm-12 d-flex flex-column justify-content-center">
-                        <div class="details-text">
-                            QBEEP INTELLIGENT SYSTEMS SDN. BHD. (1406224-P) <br>
-                            B-3A-4, North Point, Mid Valley City, No 1, Medan Syed Putra Utama, 59200 Kuala Lumpur, Malaysia.
-                        </div>
-                    </div>
-                    <div>
-                        <div class="divider my-2"></div> <!-- Add margin -->
-                    </div>
-                    <div class="col-sm-12 d-flex flex-column justify-content-center">
-                        <div class="details-text">
-                            <span class="fw-bold">Follow us on:</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-8">
-                        <div class="row">
-                            <div class="col text-start">
-                                <a href="https://www.facebook.com/QBeepSolutions" target="_blank">
-                                    <img src="{{ asset('img/main-facebook.png') }}" width="40" height="auto" alt="Facebook" />
-                                </a>
-                            </div>
-                            <div class="col text-start">
-                                <a href="https://www.instagram.com/qbeepis" target="_blank">
-                                    <img src="{{ asset('img/main-instagram.png') }}" width="40" height="auto" alt="Instagram" />
-                                </a>
-                            </div>
-                            <div class="col text-start">
-                                <a href="https://qbeep.com/" target="_blank">
-                                    <img src="{{ asset('img/main-webpage.png') }}" width="40" height="auto" alt="Website" />
-                                </a>
-                            </div>
-                            <div class="col text-start">
-                                <a href="https://wa.me/60109130399" target="_blank">
-                                    <img src="{{ asset('img/main-whatsapp.png') }}" width="40" height="auto" alt="WhatsApp" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="col-lg-4 order-lg-3 px-5">
+            <div class="address-container mt-3">
+                <h5 class="fw-bold">Business Enquiries</h5>
+                <p>
+                    <a href="mailto:enquiry@smartmfdealers.com" class="text-decoration-none text-dark">
+                        enquiry@smartmfdealers.com
+                    </a>
+                </p>
+
+                <div class="divider my-3"></div>
+
+                <h5 class="fw-bold">Support Enquiries</h5>
+                <p>
+                    <a href="mailto:support@smartmfdealers.com" class="text-decoration-none text-dark">
+                        support@smartmfdealers.com
+                    </a>
+                </p>
+
+                <div class="divider my-3"></div>
+
+                <h5 class="fw-bold">Address</h5>
+                <p>
+                    QBEEP INTELLIGENT SYSTEMS SDN. BHD. (1406224-P) <br>
+                    B-3A-4, North Point, Mid Valley City, No 1, Medan Syed Putra Utama, 59200 Kuala Lumpur, Malaysia.
+                </p>
+
+                <div class="divider my-3"></div>
+
+                <h5 class="fw-bold">Follow Us</h5>
+                <div class="d-flex">
+                    <a href="https://www.facebook.com/QBeepSolutions" target="_blank" class="me-3">
+                        <img src="{{ asset('img/main-facebook.png') }}" width="40" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/qbeepis" target="_blank" class="me-3">
+                        <img src="{{ asset('img/main-instagram.png') }}" width="40" alt="Instagram">
+                    </a>
+                    <a href="https://qbeep.com/" target="_blank" class="me-3">
+                        <img src="{{ asset('img/main-webpage.png') }}" width="40" alt="Website">
+                    </a>
+                    <a href="https://wa.me/60109130399" target="_blank">
+                        <img src="{{ asset('img/main-whatsapp.png') }}" width="40" alt="WhatsApp">
+                    </a>
                 </div>
             </div>
         </div>

@@ -32,3 +32,7 @@ Route::get('/contact', function () {
 Route::get('/terminate', function () {
     return view('terminate');
 });
+
+Route::get('/faq', function () {
+    return view('faq');
+});

@@ -125,6 +125,53 @@
             /* Adjust spacing as needed */
         }
 
+        .content-container {
+            background-color: transparent;
+            margin: 10px;
+            margin-top: 10px;
+            text-align: left;
+            /* Ensure text is left-aligned */
+        }
+
+        .rounded-box {
+            background-color: white;
+            border-radius: 15px;
+            padding: 10px;
+            /* max-width: px; */
+            /* Control the size */
+            text-align: left;
+            /* Align content to the start */
+        }
+
+        .rounded-box>h2 {
+            color: black;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191;
+            font-weight: 900;
+        }
+
+        .subheader,
+        .question-title {
+            color: black;
+            margin-left: 20px;
+            text-align: left;
+            /* Ensure the text is left-aligned */
+        }
+
+        .accordion-button {
+            /* color: teal; */
+            font-weight: bold;
+            padding-bottom: 15px;
+        }
+
+        .accordion-button:hover {
+            color: teal;
+            text-decoration: none;
+            background-color: transparent;
+        }
+
         @media (max-width: 768px) {
             .footer-container {
                 flex-direction: column;
@@ -139,6 +186,12 @@
             .social-icons {
                 justify-content: center;
                 width: 100%;
+            }
+
+            .rounded-box {
+                padding: 10px;
+                text-align: left;
+                /* Keep left alignment on larger screens */
             }
         }
 
@@ -205,7 +258,7 @@
                 <a href="/contact" class="col" id="link">
                     <span>Contact Us</span>
                 </a>
-                <a href="#" class="col" id="link">
+                <a href="/faq" class="col" id="link">
                     <span>FAQ</span>
                 </a>
                 <a href="#" class="col" id="link">

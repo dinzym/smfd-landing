@@ -32,7 +32,7 @@
                                 <label for="phone" class="fw-bold fs-6 pb-2 px-3">Phone Number</label>
                                 <div class="d-inline-flex w-100" style="gap: 10px;">
                                     <input type="tel" id="phone-code" class="form-control p-2" placeholder="+60" required style="border-radius: 10px; border: 1px solid #eaeaea; max-width: 10%;">
-                                    <input type="tel" id="phone" class="form-control p-2" placeholder="Phone number" required style="border-radius: 10px; border: 1px solid #eaeaea; flex-grow: 1;">
+                                    <input type="tel" id="phone" class="form-control p-2" placeholder="1234567890" required style="border-radius: 10px; border: 1px solid #eaeaea; flex-grow: 1;">
                                 </div>
                             </div>
                         </div>

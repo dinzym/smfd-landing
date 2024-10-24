@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::fallback(function () {
+    return redirect('/home');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -35,4 +39,8 @@ Route::get('/terminate', function () {
 
 Route::get('/faq', function () {
     return view('faq');
+});
+
+Route::get('/register', function () {
+    return view('register');
 });

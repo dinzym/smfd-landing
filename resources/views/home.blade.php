@@ -7,7 +7,7 @@
         <h2>Your all in one hub for MFIII, MF+ and LABRMS <br>
             Discover endless possibilities with SmartMFDealers.</h2>
         <div class="row justify-content-around mt-5 w-100">
-            <a class="nav-link text-white text-start col-6" href="#">
+            <a href="/register" class="nav-link text-white text-start col-6" >
                 <button type="button" class="btn text-success bg-white fw-bold fs-5 py-2 px-3">Register as a Dealer ></button>
             </a>
         </div>

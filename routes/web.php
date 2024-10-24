@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::fallback(function () {
+    return redirect('/home');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -31,4 +35,24 @@ Route::get('/contact', function () {
 
 Route::get('/terminate', function () {
     return view('terminate');
+});
+
+Route::get('/faq', function () {
+    return view('faq');
+});
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/verification', function () {
+    return view('verification');
+});
+
+Route::get('/create/password', function () {
+    return view('passwordform');
+});
+
+Route::get('/reset/password', function () {
+    return view('resetpasswordform');
 });

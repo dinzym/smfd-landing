@@ -186,7 +186,7 @@
 
                 <li class="nav-item px-1">
                     @if (request()->is('terminate'))
-                    <a class="nav-link text-white" href="/terminate">Reset Password</a>
+                    <a class="nav-link text-white" href="#">Reset Password</a>
                     </a>
                     @endif
                 </li>

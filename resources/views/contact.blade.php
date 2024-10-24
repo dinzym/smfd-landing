@@ -18,39 +18,39 @@
                 </div>
                 <div>
                     <form action="#">
-                        <div class="d-flex justify-content-start align-items-center">
-                            <div class="d-flex my-2 fs-5 w-50 flex-column" style="border-radius: 15px; box-sizing: border-box;">
-                                <label for="full-name" class="fw-bold fs-6 px-4 pb-2">Full Name<sup class="text-danger">*</sup class="text-danger"></label>
-                                <input type="text" id="full-name" class="p-3 fs-6 mx-2 " style="border-radius: 10px; border: 1px solid #eaeaea;" placeholder="Full Name" required>
+                        <div class="row my-2 px-3">
+                            <div class="col-lg-6 mb-3">
+                                <label for="full-name" class="fw-bold fs-6 pb-2 px-3">Full Name<sup class="text-danger">*</sup></label>
+                                <input type="text" id="full-name" class="form-control p-2 " placeholder="Full Name" required style="border-radius: 10px; border: 1px solid #eaeaea;">
                             </div>
-                            <div class="d-flex my-2 ms-5 fs-5 pt-4 flex-column" style="width: 5.5%;">
-                                <input type="tel" id="phone" class="p-3 fs-6  " style="border-radius: 10px; border: 1px solid #eaeaea;" placeholder="+60" required>
-                            </div>
-                            <div class="d-flex my-2 fs-5 w-50 flex-column">
-                                <label for="phone" class="fw-bold fs-6 pb-2">Phone number</label>
-                                <input type="tel" id="phone" class="p-3 fs-6 mx-2 " style="border-radius: 10px; border: 1px solid #eaeaea;" placeholder="Phone number" required>
+                            <div class="col-lg-6 mb-3">
+                                <label for="phone" class="fw-bold fs-6 pb-2 px-3">Phone Number</label>
+                                <div class="d-inline-flex w-100" style="gap: 10px;">
+                                    <input type="tel" id="phone-code" class="form-control p-2" placeholder="+60" required style="border-radius: 10px; border: 1px solid #eaeaea; max-width: 10%;">
+                                    <input type="tel" id="phone" class="form-control p-2" placeholder="Phone number" required style="border-radius: 10px; border: 1px solid #eaeaea; flex-grow: 1;">
+                                </div>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-between align-items-start">
-                            <div class="d-flex my-2 fs-5 w-50 flex-column" style="border-radius: 15px; box-sizing: border-box;">
-                                <label for="email" class="fw-bold fs-6 px-4 pb-2">Email<sup class="text-danger">*</sup class="text-danger"></label>
-                                <input type="email" id="email" class="p-3 fs-6 mx-2 " style="border-radius: 10px; border: 1px solid #eaeaea;" placeholder="Email" required>
+                        <div class="row my-2 px-3">
+                            <div class="col-lg-6 mb-3">
+                                <label for="email" class="fw-bold fs-6 pb-2 px-3">Email<sup class="text-danger">*</sup></label>
+                                <input type="email" id="email" class="form-control p-2" placeholder="Email" required style="border-radius: 10px; border: 1px solid #eaeaea;">
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="py-3 px-4 fs-6 text-dark text-start fw-bold">
-                    Your Message<sup class="text-danger">*</sup class="text-danger">
+
+                <div class="py-3 pb-2 fs-6 text-dark text-start fw-bold" style="padding-left: 35px;" >
+                    Your Message<sup class="text-danger">*</sup>
                 </div>
                 <div class="form-group px-3">
                     <textarea class="form-control" rows="5" placeholder="Write your message here..." style="font-size: 18px; padding-top: 10px;"></textarea>
                 </div>
-                <!-- Submit Button -->
                 <div class="container">
                     <div class="row" style="display:flex;">
                         <div class="offset-lg-9 col-lg-3 pb-md-4">
                             <div class="d-flex align-items-center justify-content-end pt-4 mt-3">
-                                <button type="submit" class="btn btn-rounded text-white fs-5 px-5 py-2" style="background-color: #004d40;">Send</button>
+                                <button type="submit" class="btn btn-rounded text-white fs-5 px-3 py-2" style="background-color: #004d40;">Send</button>
                             </div>
                         </div>
                     </div>

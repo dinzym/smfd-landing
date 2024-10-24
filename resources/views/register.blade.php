@@ -65,7 +65,7 @@
                 <div class="row" style="display:flex;">
                     <div class="offset-lg-9 col-lg-3 pb-md-4">
                         <div class="d-flex align-items-center justify-content-end">
-                            <button type="submit" class="btn btn-rounded text-white fs-5 px-5 py-2" style="background-color: #004d40;">Continue</button>
+                            <a href="#"><button type="submit" class="btn btn-rounded text-white fs-5 px-5 py-2" style="background-color: #004d40;">Continue</button></a>
                         </div>
                     </div>
                 </div>

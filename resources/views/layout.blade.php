@@ -217,6 +217,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
                 <li class="nav-item px-1">
                     @if (request()->is('home'))
                     <a class="nav-link text-white">
@@ -238,22 +239,24 @@
                 </li>
 
                 <li class="nav-item px-1">
-                    @if (request()->is('terminate'))
+                    @if (request()->is('reset/password') || request()->is('terminate'))
                     <a class="nav-link text-white" href="#">Reset Password</a>
                     @endif
                 </li>
+
                 <li class="nav-item px-1">
-                    @if (request()->is('register'))
+                    @if (request()->is('register') || request()->is('verification') || request()->is('create/password'))
                     <a class="nav-link text-white" href="#">About Us</a>
                     @endif
                 </li>
+
             </ul>
         </div>
     </nav>
 
     @yield('content')
 
-    @if (!Request::is('register'))
+    @if (!request()->is('register') && !request()->is('verification') && !request()->is('create/password') && !request()->is('reset/password'))
     <footer class="text-center text-lg-start text-white mt-auto">
         <section class="p-3" style="background-color: #097584; height: auto;">
             <div class="row text-center">

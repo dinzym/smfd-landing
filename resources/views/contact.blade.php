@@ -50,7 +50,7 @@
                     <div class="row" style="display:flex;">
                         <div class="offset-lg-9 col-lg-3 pb-md-4">
                             <div class="d-flex align-items-center justify-content-end pt-4 mt-3">
-                                <button type="submit" class="btn btn-rounded text-white fs-5 px-3 py-2" style="background-color: #004d40;">Send</button>
+                                <button type="submit" class="btn btn-rounded text-white fs-5 px-5 py-2" style="background-color: #004d40;">Send</button>
                             </div>
                         </div>
                     </div>

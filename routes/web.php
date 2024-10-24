@@ -44,3 +44,15 @@ Route::get('/faq', function () {
 Route::get('/register', function () {
     return view('register');
 });
+
+Route::get('/verification', function () {
+    return view('verification');
+});
+
+Route::get('/create/password', function () {
+    return view('passwordform');
+});
+
+Route::get('/reset/password', function () {
+    return view('resetpasswordform');
+});

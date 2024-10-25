@@ -26,9 +26,9 @@
                         <div class="col-lg-12 mb-4">
                             <div class="d-flex justify-content-center w-100" style="gap: 15px;">
                                 @for ($i = 0; $i < 6; $i++)
-                                    <input type="text" id="otp" maxlength="1" class="form-control text-center fs-4 fw-bold" required
+                                    <input type="text" id="otp{{$i}}" maxlength="1" class="otp-input form-control text-center fs-4 fw-bold" required
                                     style="background-color:#F5F5F5; border:none; border-bottom: 2px solid #004d40; width: 60px; height: 60px;">
-                                    @endfor
+                                @endfor
                             </div>
                         </div>
                         <div class="text-center">

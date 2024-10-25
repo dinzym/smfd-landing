@@ -12,8 +12,7 @@
             </a>
         </div>
     </div>
-    <img src="{{ asset('img/homebackground.png') }}" alt="home_background" class="img-fluid" style="width: 100%; height: 70%; object-fit: cover;">
-    <img src="{{ asset('img/objects.png') }}" alt="frame" class="img-fluid position-absolute" style="top: 0; left: 0; width: 100%; height: 70%; object-fit: cover;">
+    <img src="{{ asset('img/home.png') }}" alt="home_background" class="img-fluid" style="width: 100%; height: 70%; object-fit: cover;">
 </div>
 
 <!-- Content Section -->

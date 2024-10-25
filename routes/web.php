@@ -14,14 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::fallback(function () {
-    return redirect('/home');
+    return redirect('/');
 });
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/home', function () {
     return view('home');
 });
 

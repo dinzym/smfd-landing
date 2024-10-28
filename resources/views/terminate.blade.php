@@ -25,27 +25,18 @@
                     <form action="#">
                         <div class="row my-2 px-3">
                             <div class="col-lg-6 mb-3">
-                                <label for="full-name" class="fw-bold fs-6 pb-2 px-3">Full Name<sup class="text-danger">*</sup></label>
-                                <input type="text" id="full-name" class="form-control p-2 " placeholder="Full Name" required style="border-radius: 10px; border: 1px solid #eaeaea;">
-                            </div>
-                            <div class="col-lg-6 mb-3">
-                                <label for="phone" class="fw-bold fs-6 pb-2 px-3">Phone Number</label>
-                                <div class="d-inline-flex w-100" style="gap: 10px;">
-                                    <input type="tel" id="phone-code" class="form-control p-2" placeholder="+60" required style="border-radius: 10px; border: 1px solid #eaeaea; max-width: 10%;">
-                                    <input type="tel" id="phone" class="form-control p-2" placeholder="1234567890" required style="border-radius: 10px; border: 1px solid #eaeaea; flex-grow: 1;">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row my-2 px-3">
-                            <div class="col-lg-6 mb-3">
                                 <label for="email" class="fw-bold fs-6 pb-2 px-3">Email<sup class="text-danger">*</sup></label>
                                 <input type="email" id="email" class="form-control p-2" placeholder="Email" required style="border-radius: 10px; border: 1px solid #eaeaea;">
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="password" class="fw-bold fs-6 pb-2 px-3">Password<sup class="text-danger">*</sup></label>
+                                <input type="password" id="password" class="form-control p-2" placeholder="Fill in password" required style="border-radius: 10px; border: 1px solid #eaeaea;">
                             </div>
                         </div>
                     </form>
                 </div>
 
-                <div class="py-3 pb-2 fs-6 text-dark text-start fw-bold" style="padding-left: 35px;" >
+                <div class="py-3 pb-2 fs-6 text-dark text-start fw-bold" style="padding-left: 35px;">
                     Reason<sup class="text-danger">*</sup>
                 </div>
                 <div class="form-group px-3">
